@@ -1,0 +1,13 @@
+EXEC [dbo].[Date_Fill_Dim]
+EXEC [dbo].[Time_Fill_Dim]
+EXEC [dbo].[Branch_Fill_Dim]
+EXEC [dbo].[Course_Fill_Dim]
+EXEC [dbo].[Customer_Fill_Dim]
+--EXEC [dbo].[Equipment_Fill_Dim]
+--EXEC [dbo].[Maintenance_Fill_Dim]
+EXEC [dbo].[Relation_Fill_Dim]
+
+EXEC [dbo].[Factless_Fill_Fact]
+EXEC [dbo].[Usage_Tran_Fill_Fact]
+EXEC [dbo].[Usage_Monthly_Fill_Fact]
+EXEC [dbo].[Acc_Usage_Fill_Fact]
